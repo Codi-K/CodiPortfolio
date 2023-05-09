@@ -8,3 +8,27 @@
     box-sizing: border-box;
     font-family: 'Lora', serif;
 }
+/* Footer */
+.footer{
+    background-color: #DFDFE0;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+  }
+    
+  .icons {  
+    padding-bottom: 10px;
+  }
+  
+  .nav-words{
+    opacity: 0.8;
+  }
+  
+  .nav-words:hover{
+    opacity: 1;
+  }
+  
+  .copyright{
+    color: grey;
+  }

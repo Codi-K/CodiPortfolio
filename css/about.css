@@ -8,3 +8,56 @@
     box-sizing: border-box;
     font-family: 'Lora', serif;
 }
+
+/* Body */
+.body{
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 2.5rem;
+    
+
+}
+
+.skills-card{
+    margin: 1rem;
+}
+
+.education-card{
+    margin-top: 6rem;
+}
+
+.about-card{
+    margin-top: -0.04rem;
+}
+
+.education:hover{
+    color: rgb(100, 100, 100);
+}
+
+
+/* Footer */
+.footer{
+    background-color: #DFDFE0;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+  }
+    
+  .icons {  
+    padding-bottom: 10px;
+  }
+  
+  .nav-words{
+    opacity: 0.8;
+  }
+  
+  .nav-words:hover{
+    opacity: 1;
+  }
+  
+  .copyright{
+    color: grey;
+  }
