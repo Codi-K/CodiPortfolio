@@ -8,6 +8,16 @@
     box-sizing: border-box;
     font-family: 'Lora', serif;
 }
+
+/* Body */
+.body{
+  background-color: #424242;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 2rem;
+}
+
 /* Footer */
 .footer{
     background-color: #DFDFE0;

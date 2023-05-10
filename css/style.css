@@ -11,13 +11,12 @@
 
 /* Body */
 .body{
-    background-color: black;
+    background-color: #424242;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
-    padding: 20px;
-    padding-top: 60px;
+    padding: 8rem;
+    
 }
 
 .header-card{
@@ -25,14 +24,20 @@
 }
 
 .profile-image{
-  border-radius: 20%;
+  border-radius: 50%;
 }
 
 .link-in-card{
   text-decoration: none;
 }
 .card-animation{
-  padding-top: 5rem;
+
+  gap: 2rem;
+  color: white;
+}
+.text-button{
+  color: white;
+  margin-top: 4rem;
 }
 
 /* Footer */
