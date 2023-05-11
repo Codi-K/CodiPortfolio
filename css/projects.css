@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
 *,
 *::after,
@@ -19,8 +19,21 @@
   
 }
 
-.project-cards{
-  margin: 2rem 5rem;
+
+.project-card1{
+  margin-bottom: 2rem;
+}
+
+.project-card2{
+  margin-bottom: 2rem;
+
+}
+
+.twocards {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  
 }
 
 /* Footer */
@@ -46,4 +59,25 @@
   
   .copyright{
     color: grey;
+  }
+
+  @media screen and (max-width: 700px){
+
+    .twocards {
+      flex-direction: column;
+    }
+    .project-card1 .project-card2{
+      width: 100%;
+      
+    }
+
+
+  }
+ 
+  @media screen and (min-width: 300px){
+
+    .project-card3{
+      flex-direction: column;
+    }
+
   }
